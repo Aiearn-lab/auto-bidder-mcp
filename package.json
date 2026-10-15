@@ -1,0 +1,13 @@
+{
+  "name": "auto-bidder-mcp",
+  "version": "1.0.0",
+  "description": "让你的 agent 24h 自动接单（MCP 版）— Zhiwei Studio / 知微工作室",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "auto-bidder-mcp": "index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0"
+  },
+  "license": "MIT"
+}
